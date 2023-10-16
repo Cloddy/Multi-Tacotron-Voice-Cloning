@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.contrib.seq2seq import Helper
+import tensorflow_addons as tfa
+from tfa.seq2seq import Helper
 
 
 class TacoTestHelper(Helper):
